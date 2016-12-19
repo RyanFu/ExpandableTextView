@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="one.lee.myexpandtextdemo.MainActivity">
+
+    <cn.carbs.android.expandabletextview.library.ExpandableTextView
+        android:id="@+id/etv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#22aaaaaa"
+        android:padding="8dp"
+        android:text="图像被预期以覆盖沿着其水平轴360度，而垂直范围是根据图像的宽高比来计算。图像被预期以覆盖沿着其水平轴360度，而垂直范围"/>
+
+</RelativeLayout>
